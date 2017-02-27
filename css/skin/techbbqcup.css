@@ -8,6 +8,9 @@ a:hover, a:focus {
 	transition: all 0.25s;
 	text-decoration: none !important;
 }
+p {
+  margin-bottom: 1em;
+}
 
 /* === Navbar === */
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus {
@@ -153,6 +156,12 @@ a:hover, a:focus {
 	background: none repeat scroll 0 0 rgba( 242, 107, 29, 0.95);
 }
 
+/* === Partners === */
+.owl-partners div.owl-item img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* === Contact === */
 #venue-section {
 	background-color: #f08054;
@@ -240,6 +249,14 @@ a:hover, a:focus {
 }
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li.active > a {
 	color: #9f3a00;
+}
+
+}
+
+@media (min-width:768px) and (max-width : 992px) {
+
+.clear-sm-left {
+  clear: left !important; 
 }
 
 }
